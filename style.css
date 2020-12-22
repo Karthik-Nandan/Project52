@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+  
+  .head{
+        
+    background-color:white;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+    border:solid;
+    font-family: fantasy;
+     }
+  
+     .note{
+       background-image: url(bg.jpg);
+       background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+       border: dotted;
+       
+     }
+  
+     .menu{
+       display: flex;
+       justify-content: start;
+      
+       padding: 15px;
+       font-size: 20px;
+       font-family: sans-serif;
+       font-weight: 400;
+       color: #000000;
+       
+       
+     }
+  
+     .img{
+      border: 2px solid #000000;
+      border-radius: 50px;
+      padding: 10%;
+     }
+  
+  .grid {
+    background: darkred;
+    background-color: #F0F8FF;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  
+  .origami {
+    border: 1px solid #0000FF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:#E8E5E4;
+    border-width: 6px;
+    
+  }
+  .origami:hover{
+    transform: scale(1.2);
+    
+  }
+  
+  a:link{
+    transform: scale(1.2);
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
+  a:visited{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .img:hover{
+    background-color: rgba(250, 10, 10, 0.349);
+    color:  black;
+  }
